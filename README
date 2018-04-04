@@ -1,0 +1,16 @@
+Do you enjoy finding bugs? If yes, follow the below steps to setup up your buggy machine:
+
+1. Untar the tar.gz file in DVWA machine and copy the "spc" folder to the dvwa/vulnerabilities path.
+2. Navigate to the spc folder and check for the file setup.sh. It must have executable permissions.
+3. Run the sudo ./setup.sh.
+4. Check if the installation is successful without errors. Report bugs to pv,sw.
+5. Check if you are able to browse low, medium and high spc custom pages.
+
+Troubleshoot
+------------
+
+-> For any failures, do check the permissions and complete system path's of the files/folders involved.
+-> If the apache server goes down, restore from apache2.conf.backup created by setup.sh
+
+
+*********HAPPY HACKING. Hope you have fun!**********
